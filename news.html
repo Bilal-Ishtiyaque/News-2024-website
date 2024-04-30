@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News 2024</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- JS -->
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-------------------
+        ----HEADER 
+    --------------------->
+
+    <header>
+
+        <!-- logo -->
+
+        <div class="logo text-center"><img src="news2024.png" alt=""></div>
+
+        <!-- navigation -->
+
+        <nav>
+
+            <button class="chevron_left chevron">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+
+            <ul class="nav_list">
+
+                <li><a href="#" class="nav_link">Technology</a></li>
+                <li><a href="#" class="nav_link">Politics</a></li>
+                <li><a href="#" class="nav_link">Health</a></li>
+                <li><a href="#" class="nav_link">Education</a></li>
+                <li><a href="#" class="nav_link">Business</a></li>
+                <li><a href="#" class="nav_link">Journalism</a></li>
+                <li><a href="#" class="nav_link">Sports</a></li>
+
+            </ul>
+
+            <button class="chevron_right chevron">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+        </nav>
+
+        
+        
+        
+        <!-- search bar & MENU-->
+
+        
+        <div class="search">
+
+            <div class="menu">
+
+                <ul class="menu_list">
+                    <li><a href="#" class="menu_link">Latest</a></li>
+                    <li><a href="#" class="menu_link">Flood Donations</a></li>
+                    <li><a href="#" class="menu_link">Podcast</a></li>
+                    <li><a href="#" class="menu_link">Blogs</a></li>
+                </ul>
+
+            </div>
+
+            <input type="search" placeholder="search" class="search_field">
+
+            <div class="search_icon">
+                <i class="fa-brands fa-searchengin"></i>
+            </div>
+
+            <div class="menu_btn">
+                <i class="fa-solid fa-bars" style="font-size: 1.3rem;"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-------------------
+        ----MAIN SECTION 
+    --------------------->
+
+    <main>
+
+        <!-- scroll to top button -->
+
+        <div class="scroll_to_top">
+            <i class="fa-solid fa-chevron-up"></i>
+        </div>
+
+        <!-- HERO SECTION -->
+
+        <section class="hero_section container">
+
+            <div class="hero_div">
+
+                <!-- quote -->
+
+                <div class="quote text-center">
+
+                    <q>In a time of universal deceit - telling the truth is a revolutionary act</q>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- NEWS SECTION / NEWS ARTICLES -->
+
+        <section class="news_section container">
+
+            <!-- ARTICLES WILL BE DISPLAYED IN THIS SECTION  -->
+
+
+        </section>
+
+    </main>
+
+    <!-- TEMPLATE TAG -->
+
+    <template id="template_news_card">
+
+        <article>
+            <div class="card news">
+                <div class="news_banner">
+                    <img src="news.jpg" alt="" class="news_img">
+                </div>
+
+                <div class="news_headings">
+
+                    <h3 class="news_title"></h3>
+                    <p class="news_source"></p>
+
+                </div>
+
+                <p class="news_desc"
+                    style="--lineClamp:; display: -webkit-box;-webkit-box-orient: vertical; -webkit-line-clamp: var(--lineClamp); overflow: hidden">
+                </p>
+
+            </div>
+        </article>
+
+
+    </template>
+
+    <!-------------------
+        ----FOOTER 
+    --------------------->
+
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <!-- footer list -->
+
+            <ul class="footer_list">
+
+                <li>
+                    <a href="#" class="footer_link"><i class="fa-brands fa-linkedin"
+                            style="color: #0A66C2;"></i></a><span>Bilal Ishtiyaque</span>
+                </li>
+
+            </ul>
+
+            <!-- copyright -->
+
+            <p class="footer_copyright text-center">
+                &copy; 2024 copyright all right reserved
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>
