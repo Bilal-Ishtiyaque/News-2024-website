@@ -126,7 +126,7 @@ function truncateLines() {
 
 //Fetching and showing data From API
 
-const API_KEY = "71ab5269559244ffaad7e4919259f64f";
+const API_KEY = "insert your API key here";
 const url = "https://newsapi.org/v2/everything?q=";
 
 window.addEventListener("load", () => getNews("world"));
